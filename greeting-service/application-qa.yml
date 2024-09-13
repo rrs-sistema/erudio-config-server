@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: greenting-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+erudio-config-server:
+  greenting: "Olá"
+  default-value: "Mundo!"
